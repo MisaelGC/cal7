@@ -64,6 +64,8 @@ main section div{
   text-align: center;
 }
 
+/* figuras del sidebar */
+
 .chiapas h2{
   color: red;
   font-family: 'Spicy Rice', cursive;
@@ -114,14 +116,55 @@ main section div{
   font-family: 'Mukta', sans-serif;
 }
 
+/* media querys */
+
 @media screen and (min-width:500px) and (max-width:700px){
   body{
     font-family: 'Mukta', sans-serif;
-    font-size: 30;
     background: purple;
     color: white;
   }
   body h2{
     font-family: 'Mukta', cursive;
+  }
+
+  main section h2{
+    width: 10%;
+    background: red;
+    color: white;
+    margin-left: 55%;
+    margin-right: 35%;
+    font-size: 10;
+  }
+
+  main section div p{
+    margin-left: 55%;
+    margin-right: 35%;
+  }
+}
+
+@media screen and (min-width:701px) and (max-width:900px){
+  body{
+    font-family: 'Spicy Rice', sans-serif;
+    font-size: 30;
+    background: green;
+    color: white;
+  }
+  body h2{
+    font-family: 'Spicy Rice', cursive;
+  }
+
+  main section h2{
+    width: 10%;
+    background: red;
+    color: white;
+    margin-left: 55%;
+    margin-right: 25%;
+    font-size: 10;
+  }
+
+  main section div p{
+    margin-left: 55%;
+    margin-right: 25%;
   }
 }
